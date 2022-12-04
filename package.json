@@ -8,8 +8,8 @@
     "node": "18.x"
   },
   "scripts": {
-    "start": "node functions/index.js",
-    "dev": "nodemon functions/index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
