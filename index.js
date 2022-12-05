@@ -16,7 +16,7 @@ app.use(router)
 
 const io = new Server(server, {
   cors: {
-    origin: 'https://localhost:5173',
+    origin: "*",
     methods: ['GET', 'POST']
   }
 })
